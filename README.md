@@ -89,9 +89,6 @@ Everything lands in `--outdir`.
 
 Locus ids look like `my_species_mp_0001`. They are search ids. Naming a shared gene `nitr12`, a private gene `Arl_nitr1`, or a pseudogene `nitr2p` was a separate step for the trout workbook and is not part of this download.
 
-## Hardware
-
-`esl-translate` writes a six-frame translation of the whole genome, and `miniprot` holds the assembly. A chromosome-level teleost genome wants about 80 GB of RAM, tens of gigabytes of disk for the open-reading-frame file, and up to one or two days. Run it as a batch job. Do not start it on a login node.
 
 ## What this download does not do
 
